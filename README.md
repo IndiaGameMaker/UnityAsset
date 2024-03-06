@@ -11,4 +11,4 @@ If any of these assets infringe on your interests, please contact me
 
 # [进入WIKI，开始寻找](https://github.com/IndiaGameMaker/UnityAsset/wiki/Assets "hello world")
 
-![image](https://assetstore-cdn-china.unitychina.cn/cdn-origin/assets/as/views/common/components/Logo/src/unity-assetstore-logo-new.50ac708aeae28b8b6bf369ece5875fa5.svg)
+![image](https://cms-cdn-china.unitychina.cn/genesis-admin-banners/banner-c6d9f98c-b816-468d-9384-9daa2931693a)
