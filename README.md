@@ -9,9 +9,6 @@ If you want to commercialize these assets you can buy them in the store
 If any of these assets infringe on your interests, please contact me
 如果侵害您的权益，请联系我
 
-# [WIKI页了解](https://github.com/IndiaGameMaker/UnityAsset/wiki/Assets "hello world")
+# [进入WIKI，开始寻找](https://github.com/IndiaGameMaker/UnityAsset/wiki/Assets "hello world")
 
-在浏览器按下Ctrl + F 搜索你想要的了解的资产，点击名称 进入下载页
-
-# [UModeler v2.10.15](https://url52.ctfile.com/f/18305852-1030323799-b00499?p=1352 "下载")
-![image](https://assetstore-cdn-china-v1.unitychina.cn/key-image/263b208b-0678-4b56-a9f5-51538f7c72cf.webp)
+![image](https://assetstore-cdn-china.unitychina.cn/cdn-origin/assets/as/views/common/components/Logo/src/unity-assetstore-logo-new.50ac708aeae28b8b6bf369ece5875fa5.svg)
