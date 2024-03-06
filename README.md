@@ -1,13 +1,13 @@
 # statement denying or limiting responsibili
-``免责证明``
+免责声明
 These resources are collected from the web
-``所有资产均来自网络``
+所有资产均为来自网络的整理
 It is used only for study, testing
-``仅可用于学习和测试``
+仅可用于学习和测试
 If you want to commercialize these assets you can buy them in the store
-``如果你要商用请去商店购买资产``
+如果你要商用请去商店购买资产
 If any of these assets infringe on your interests, please contact me
-``如果侵害您的权益，请联系我``
+如果侵害您的权益，请联系我
 
 在浏览器按下Ctrl + F 搜索你想要的了解的资产，点击名称 进入下载页
 
