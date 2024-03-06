@@ -9,7 +9,7 @@ If you want to commercialize these assets you can buy them in the store
 If any of these assets infringe on your interests, please contact me
 如果侵害您的权益，请联系我
 
-# [WIKI页了解](https://github.com/IndiaGameMaker/UnityAsset/wiki/%E5%B7%A5%E5%85%B7 "hello world")
+# [WIKI页了解](https://github.com/IndiaGameMaker/UnityAsset/wiki/Assets "hello world")
 
 在浏览器按下Ctrl + F 搜索你想要的了解的资产，点击名称 进入下载页
 
