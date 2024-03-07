@@ -11,5 +11,5 @@ If any of these assets infringe on your interests, please contact me
 
 
 # [进入WIKI，开始寻找](https://github.com/IndiaGameMaker/UnityAsset/wiki/Assets "hello world")
+![Uploading 扫码_搜索联合传播样式-白色版.png…]()
 
-![扫码_搜索联合传播样式-白色版](https://github.com/IndiaGameMaker/UnityAsset/assets/1924146/2820106f-5828-45dd-a529-737819ab5683)
