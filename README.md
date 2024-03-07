@@ -9,6 +9,8 @@ If you want to commercialize these assets you can buy them in the store
 If any of these assets infringe on your interests, please contact me
 如果侵害您的权益，请联系我
 
+![image](https://mp.weixin.qq.com/misc/getqrcode?fakeid=3570964975&token=1400319983)
+
 # [进入WIKI，开始寻找](https://github.com/IndiaGameMaker/UnityAsset/wiki/Assets "hello world")
 
 ![image](https://cms-cdn-china.unitychina.cn/genesis-admin-banners/banner-c6d9f98c-b816-468d-9384-9daa2931693a)
