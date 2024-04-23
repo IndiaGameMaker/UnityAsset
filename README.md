@@ -205,3 +205,22 @@ If any of these assets infringe on your interests, please contact me
                EditorGUIUtility.SetIconForObject(gameObject, (Texture2D) iconContent.image);
 
 ===========================================================================
+
+
+======================================================================================
+        
+ public static void AddEventTrigger(GameObject obj, EventTriggerType eventTriggerType, UnityAction<BaseEventData> callBack)
+    {
+        var et = obj.GetComponent<EventTrigger>();
+        if (null == et)
+        {
+            et = obj.AddComponent<EventTrigger>();
+        }
+
+        EventTrigger.TriggerEvent triggerEvent = new EventTrigger.TriggerEvent();
+        triggerEvent.AddListener(callBack);
+        et.triggers.Add(new EventTrigger.Entry() { eventID = eventTriggerType, callback = triggerEvent });
+    }
+
+==================================================================================
+  
