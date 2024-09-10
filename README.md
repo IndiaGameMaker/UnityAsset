@@ -216,7 +216,7 @@ If any of these assets infringe on your interests, please contact me
  
 
         public static void AddEventTrigger(GameObject obj, EventTriggerType eventTriggerType, UnityAction<BaseEventData> callBack)
-    {
+    {//Image,动态添加事件
         var et = obj.GetComponent<EventTrigger>();
         if (null == et)
         {
