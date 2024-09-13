@@ -229,3 +229,23 @@ If any of these assets infringe on your interests, please contact me
 
 ==================================================================================
   
+======================================================================================
+        
+ 、、权重
+
+    public static int GetItemByWeight(Item[] itemsArr)
+    {
+        var sum = 0;
+        foreach (var item in itemsArr) { sum += item.nWeight; }
+
+        var random = Random.Range(0, sum);
+        for (int i = 0; i < itemsArr.Length; i++)
+        {
+            if (random >= itemsArr[i].nWeight) { random -= itemsArr[i].nWeight; continue; }
+            return itemsArr[i];
+        }
+        return 0;
+    }
+
+==================================================================================
+  
