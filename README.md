@@ -249,3 +249,22 @@ If any of these assets infringe on your interests, please contact me
 
 ==================================================================================
   
+======================================================================================
+        
+ //跳过 splash
+
+   [Preserve]
+public class SkipSplash
+{
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSplashScreen)]
+    private static void Run()
+    {
+        Task.Run(() =>
+        {
+            SplashScreen.Stop(SplashScreen.StopBehavior.StopImmediate);
+        });
+    }
+
+}
+
+==================================================================================
