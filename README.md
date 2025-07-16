@@ -268,3 +268,19 @@ public class SkipSplash
 }
 
 ==================================================================================
+        // 获取 日志
+        private IEnumerator GetGameLog()
+        {
+            string url = "https://raw.githubusercontent.com/IndiaGameMaker/UnityAsset/main/Log";
+            UnityWebRequest request = UnityWebRequest.Get(url);
+            yield return request.SendWebRequest();
+
+            if (request.result != UnityWebRequest.Result.Success)
+            {
+                Debug.LogError("Error: " + request.error);
+            }
+            else
+            {
+                Debug.Log("File content: " + request.downloadHandler.text);
+            }
+        }
