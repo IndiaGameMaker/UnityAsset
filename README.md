@@ -284,3 +284,22 @@ public class SkipSplash
                 Debug.Log("File content: " + request.downloadHandler.text);
             }
         }
+====================================================================================================
+//获取 github 音频
+private string audioUrl = "https://raw.githubusercontent.com/IndiaGameMaker/UnityAsset/main/1%20-%20Title%20Screen.mp3";
+ using (UnityWebRequest www = UnityWebRequest.Get(audioUrl))
+ {
+     // 下载为字节数组
+     www.downloadHandler = new DownloadHandlerBuffer();
+     yield return www.SendWebRequest();
+
+     if (www.result != UnityWebRequest.Result.Success)
+     {
+         Debug.LogError($"下载失败: {www.error}");
+         yield break;
+     }
+
+     byte[] mp3Data = www.downloadHandler.data;
+     // 后续处理：转换为WAV或通过NAudio播放
+     File.WriteAllBytes(Path.Combine(Application.streamingAssetsPath, "1.mp3"), www.downloadHandler.data);
+ }
